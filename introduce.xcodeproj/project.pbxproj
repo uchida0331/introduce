@@ -76,9 +76,9 @@
 				ACA68D5C239555E700FCFFA2 /* controller */,
 				ACA68D502395435500FCFFA2 /* LaunchScreen.storyboard */,
 				ACA68D532395435500FCFFA2 /* Info.plist */,
+				ACB790FF23AF9F5B00C3BA94 /* pinpon.mp3 */,
 				ACB7910123AF9F6200C3BA94 /* bubu.mp3 */,
 				ACB7910823B3B90000C3BA94 /* togalite-black.otf */,
-				ACB790FF23AF9F5B00C3BA94 /* pinpon.mp3 */,
 			);
 			path = introduce;
 			sourceTree = "<group>";

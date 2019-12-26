@@ -2,7 +2,7 @@
 //  Sound.swift
 //  introduce
 //
-//  Created by 内田優太 on 2019/12/22.
+//  Created by yuta on 2019/12/22.
 //  Copyright © 2019 yuta. All rights reserved.
 //
 

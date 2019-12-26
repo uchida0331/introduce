@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  introduce
 //
-//  Created by 内田優太 on 2019/12/02.
+//  Created by yuta on 2019/12/02.
 //  Copyright © 2019 yuta. All rights reserved.
 //
 
