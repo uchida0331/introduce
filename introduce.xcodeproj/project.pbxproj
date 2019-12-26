@@ -7,16 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4FC15D23AA6C2200DD5876 /* QuestionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4FC15C23AA6C2200DD5876 /* QuestionsModel.swift */; };
 		ACA68D462395435300FCFFA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA68D452395435300FCFFA2 /* AppDelegate.swift */; };
 		ACA68D482395435300FCFFA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA68D472395435300FCFFA2 /* SceneDelegate.swift */; };
 		ACA68D4A2395435300FCFFA2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA68D492395435300FCFFA2 /* ViewController.swift */; };
 		ACA68D4D2395435300FCFFA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA68D4B2395435300FCFFA2 /* Main.storyboard */; };
 		ACA68D4F2395435500FCFFA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA68D4E2395435500FCFFA2 /* Assets.xcassets */; };
 		ACA68D522395435500FCFFA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA68D502395435500FCFFA2 /* LaunchScreen.storyboard */; };
+		ACA68D5E2395630300FCFFA2 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACA68D5D2395630300FCFFA2 /* NextViewController.swift */; };
+		ACB790FA23ABBEE100C3BA94 /* QuestionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB790F923ABBEE100C3BA94 /* QuestionsList.swift */; };
+		ACB7910023AF9F5B00C3BA94 /* pinpon.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB790FF23AF9F5B00C3BA94 /* pinpon.mp3 */; };
+		ACB7910223AF9F6200C3BA94 /* bubu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = ACB7910123AF9F6200C3BA94 /* bubu.mp3 */; };
+		ACB7910423AFA17700C3BA94 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7910323AFA17700C3BA94 /* Sound.swift */; };
+		ACB7910723B0F7FF00C3BA94 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB7910623B0F7FF00C3BA94 /* StartViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		ACA68D422395435300FCFFA2 /* introduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = introduce.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4FC15C23AA6C2200DD5876 /* QuestionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsModel.swift; sourceTree = "<group>"; };
+		ACA68D422395435300FCFFA2 /* 内田王は誰だ？.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "内田王は誰だ？.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACA68D452395435300FCFFA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACA68D472395435300FCFFA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		ACA68D492395435300FCFFA2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,13 @@
 		ACA68D4E2395435500FCFFA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACA68D512395435500FCFFA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACA68D532395435500FCFFA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACA68D5D2395630300FCFFA2 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		ACB790F923ABBEE100C3BA94 /* QuestionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsList.swift; sourceTree = "<group>"; };
+		ACB790FF23AF9F5B00C3BA94 /* pinpon.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pinpon.mp3; sourceTree = "<group>"; };
+		ACB7910123AF9F6200C3BA94 /* bubu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bubu.mp3; sourceTree = "<group>"; };
+		ACB7910323AFA17700C3BA94 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		ACB7910623B0F7FF00C3BA94 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		ACB7910823B3B90000C3BA94 /* togalite-black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "togalite-black.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +63,7 @@
 		ACA68D432395435300FCFFA2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ACA68D422395435300FCFFA2 /* introduce.app */,
+				ACA68D422395435300FCFFA2 /* 内田王は誰だ？.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +71,47 @@
 		ACA68D442395435300FCFFA2 /* introduce */ = {
 			isa = PBXGroup;
 			children = (
-				ACA68D452395435300FCFFA2 /* AppDelegate.swift */,
-				ACA68D472395435300FCFFA2 /* SceneDelegate.swift */,
-				ACA68D492395435300FCFFA2 /* ViewController.swift */,
-				ACA68D4B2395435300FCFFA2 /* Main.storyboard */,
-				ACA68D4E2395435500FCFFA2 /* Assets.xcassets */,
+				ACA68D5A239555BA00FCFFA2 /* model */,
+				ACA68D5B239555DF00FCFFA2 /* view */,
+				ACA68D5C239555E700FCFFA2 /* controller */,
 				ACA68D502395435500FCFFA2 /* LaunchScreen.storyboard */,
 				ACA68D532395435500FCFFA2 /* Info.plist */,
+				ACB7910123AF9F6200C3BA94 /* bubu.mp3 */,
+				ACB7910823B3B90000C3BA94 /* togalite-black.otf */,
+				ACB790FF23AF9F5B00C3BA94 /* pinpon.mp3 */,
 			);
 			path = introduce;
+			sourceTree = "<group>";
+		};
+		ACA68D5A239555BA00FCFFA2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				AC4FC15C23AA6C2200DD5876 /* QuestionsModel.swift */,
+				ACB790F923ABBEE100C3BA94 /* QuestionsList.swift */,
+				ACB7910323AFA17700C3BA94 /* Sound.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		ACA68D5B239555DF00FCFFA2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				ACA68D4E2395435500FCFFA2 /* Assets.xcassets */,
+				ACA68D4B2395435300FCFFA2 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		ACA68D5C239555E700FCFFA2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACA68D452395435300FCFFA2 /* AppDelegate.swift */,
+				ACA68D472395435300FCFFA2 /* SceneDelegate.swift */,
+				ACB7910623B0F7FF00C3BA94 /* StartViewController.swift */,
+				ACA68D492395435300FCFFA2 /* ViewController.swift */,
+				ACA68D5D2395630300FCFFA2 /* NextViewController.swift */,
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +131,7 @@
 			);
 			name = introduce;
 			productName = introduce;
-			productReference = ACA68D422395435300FCFFA2 /* introduce.app */;
+			productReference = ACA68D422395435300FCFFA2 /* 内田王は誰だ？.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -126,8 +173,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACA68D522395435500FCFFA2 /* LaunchScreen.storyboard in Resources */,
+				ACB7910223AF9F6200C3BA94 /* bubu.mp3 in Resources */,
 				ACA68D4F2395435500FCFFA2 /* Assets.xcassets in Resources */,
 				ACA68D4D2395435300FCFFA2 /* Main.storyboard in Resources */,
+				ACB7910023AF9F5B00C3BA94 /* pinpon.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +187,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB7910423AFA17700C3BA94 /* Sound.swift in Sources */,
+				ACB7910723B0F7FF00C3BA94 /* StartViewController.swift in Sources */,
 				ACA68D4A2395435300FCFFA2 /* ViewController.swift in Sources */,
+				ACB790FA23ABBEE100C3BA94 /* QuestionsList.swift in Sources */,
+				AC4FC15D23AA6C2200DD5876 /* QuestionsModel.swift in Sources */,
+				ACA68D5E2395630300FCFFA2 /* NextViewController.swift in Sources */,
 				ACA68D462395435300FCFFA2 /* AppDelegate.swift in Sources */,
 				ACA68D482395435300FCFFA2 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,7 +346,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.introduce;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "内田王は誰だ？";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +364,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.yuta.introduce;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "内田王は誰だ？";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
