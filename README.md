@@ -5,5 +5,4 @@
 
 ## DEMO
 
-![introduce (2)](https://user-images.githubusercontent.com/49116516/71480254-7d625800-283b-11ea-8eb4-906d959d96fa.gif)
-
+![intro](https://user-images.githubusercontent.com/49116516/71524908-db15a380-2912-11ea-865e-314c08199c58.gif)
